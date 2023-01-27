@@ -1,5 +1,4 @@
 <section class="admin-dashboard-show">
-
   <header class="page-header">
     <h1>Admin &raquo; Dashboard</h1>
   </header>
@@ -14,20 +13,22 @@
               <th>Count</th>
               <th style="width: 30%"></th>
             </tr>
-          </thead>  
+          </thead>
           <tbody>
             <tr>
               <td>Products</td>
               <td><%= @products_count %></td>
               <td>
-                <%= link_to "View Products", admin_products_path, class: "btn btn-success" %>
+                <%= link_to "View Products", admin_products_path, class: "btn
+                btn-success" %>
               </td>
             </tr>
             <tr>
               <td>Categories</td>
               <td><%= @categories_count %></td>
               <td>
-                <%= link_to "View Categories", admin_categories_path, class: "btn btn-success" %>
+                <%= link_to "View Categories", admin_categories_path, class:
+                "btn btn-success" %>
               </td>
             </tr>
             <tr>
@@ -45,5 +46,4 @@
       </div>
     </div>
   </div>
-
 </section>
