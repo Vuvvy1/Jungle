@@ -4,6 +4,7 @@ class Admin::ProductsController < Admin::BaseController
     @products = Product.order(id: :desc).all
   end
 
+
   def new
     @product = Product.new
   end
